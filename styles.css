@@ -1,0 +1,166 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+#box-slider {
+  position: relative;
+ 
+  margin: 20px auto 0 auto;
+  border-radius: 4px;
+}
+#box-slider ul {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  height: auto;
+  list-style: none;
+}
+
+#box-slider ul li {
+  position: relative;
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 500px; 
+  text-align: center;
+
+}
+a.control_prev, a.control_next {
+  position: absolute;
+  top: 40%;
+  z-index: 999;
+  display: block;
+  padding: 4% 3%;
+  width: auto;
+  height: auto;
+  background: #2a2a2a;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  opacity: 0.8;
+  cursor: pointer;
+  }
+a.control_next {
+  right: 0;
+  border-radius: 2px 0 0 2px;
+  background-color: black;
+  color: #fff;
+}
+
+.container-skills-tech , .container-skills-marketing
+{
+	margin: 20px auto 0 auto;
+	max-width: 	400px;
+}
+.container-skills-tech .title p
+{
+ text-align: center	;
+ font-size: 30px;
+ text-shadow: 5px;
+ letter-spacing: 3px;
+ color: gray;
+ text-decoration: line-through;
+}
+.container-skills-marketing .title p
+{
+ text-align: center	;
+ font-size: 30px;
+ text-shadow: 5px;
+ letter-spacing: 3px;
+ color: gray;
+ text-decoration: line-through;	
+}
+.bar {
+    position: relative;
+	background-color: #d8d8d8;
+	height: 10px;
+	margin: 0 0 20px 0;
+}
+.bar-title {
+  position: relative;
+	font-size: 1em;
+	text-align: left;
+	margin: 0 0 5px 0;
+}
+.bar-fill {
+  position: absolute;
+  height: 10px;
+
+}
+.percent{
+	position: absolute;
+	right: 0;
+}
+.bar-fill-html {
+	width: 70%;
+    background-color: #e44d26;
+	animation-name: bar-fill-html;
+	animation-duration: 2s;
+	animation-timing-function: ease-out;
+	-moz-animation: bar-fill-html 2s ease-out;
+    -webkit-animation: bar-fill-html 2s ease-out;
+}
+@keyframes bar-fill-html {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 70%;
+    }
+}
+@-moz-keyframes bar-fill-html {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 90%;
+    }
+}
+@-webkit-keyframes bar-fill-html {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 90%;
+    }
+}
+.bar-fill-javascript {
+	width: 60%;
+  background-color: #3d7ff8;
+  animation: bar-fill-javascript 2s ease-out;
+	-moz-animation: bar-fill-javascript 2s ease-out;
+  -webkit-animation: bar-fill-javascript 2s ease-out;
+}
+@keyframes bar-fill-javascript {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 60%;
+    }
+}
+@-moz-keyframes bar-fill-javascript {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 60%;
+    }
+}
+@-webkit-keyframes bar-fill-javascript {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 60%;
+    }
+}
