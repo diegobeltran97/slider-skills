@@ -132,7 +132,7 @@ a.control_next {
     }
 }
 .bar-fill-javascript {
-	width: 60%;
+	width: 40%;
   background-color: #3d7ff8;
   animation: bar-fill-javascript 2s ease-out;
 	-moz-animation: bar-fill-javascript 2s ease-out;
@@ -144,7 +144,7 @@ a.control_next {
     }
 
     100% {
-        width: 60%;
+        width: 40%;
     }
 }
 @-moz-keyframes bar-fill-javascript {
@@ -153,7 +153,7 @@ a.control_next {
     }
 
     100% {
-        width: 60%;
+        width: 40%;
     }
 }
 @-webkit-keyframes bar-fill-javascript {
@@ -162,13 +162,282 @@ a.control_next {
     }
 
     100% {
-        width: 60%;
+        width: 40%;
+    }
+}
+.bar-fill-jquery {
+  width: 40%;
+  background-color: #565f6f;
+  animation: bar-fill-jquery  2s ease-out;
+  -moz-animation: bar-fill-jquery  2s ease-out;
+  -webkit-animation: bar-fill-jquery  2s ease-out;
+}
+@keyframes bar-fill-jquery {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 40%;
+    }
+}
+@-moz-keyframes bar-fill-jquery {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 40%;
+    }
+}
+@-webkit-keyframes bar-fill-jquery {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 40%;
+    }
+}
+.bar-fill-responsive {
+  width: 50%;
+  background-color: #565f6f;
+  animation: bar-fill-responsive  2s ease-out;
+  -moz-animation: bar-fill-responsive  2s ease-out;
+  -webkit-animation: bar-fill-responsive  2s ease-out;
+}
+@keyframes bar-fill-responsive {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 50%;
+    }
+}
+@-moz-keyframes bar-fill-responsive {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 50%;
+    }
+}
+@-webkit-keyframes bar-fill-responsive {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 50%;
+    }
+}
+.bar-fill-reactjs {
+  width: 10%;
+  background-color: #565f6f;
+  animation: bar-fill-reactjs  2s ease-out;
+  -moz-animation: bar-fill-reactjs  2s ease-out;
+  -webkit-animation: bar-fill-reactjs  2s ease-out;
+}
+@keyframes bar-fill-reactjs {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 10%;
+    }
+}
+@-moz-keyframes bar-fill-reactjs {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 10%;
+    }
+}
+@-webkit-keyframes bar-fill-reactjs {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 10%;
+    }
+}
+.bar-fill-social-media {
+  width: 30%;
+  background-color: #565f6f;
+  animation: bar-fill-social-media  2s ease-out;
+  -moz-animation: bar-fill-social-media  2s ease-out;
+  -webkit-animation: bar-fill-social-media  2s ease-out;
+}
+@keyframes bar-fill-reactjs {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 30%;
+    }
+}
+@-moz-keyframes bar-fill-social-media {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 30%;
+    }
+}
+@-webkit-keyframes bar-fill-social-media {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 20%;
     }
 }
 
-@media only screen and (max-width: 408px) {
-    /* For desktop: */
-    .container-skills-tech,  .container-skills-marketing{
-      max-width: 80%;
+.bar-fill-seo {
+  width: 20%;
+  background-color: #565f6f;
+  animation: bar-fill-seo  2s ease-out;
+  -moz-animation: bar-fill-seo  2s ease-out;
+  -webkit-animation: bar-fill-seo  2s ease-out;
+}
+@keyframes bar-fill-seo {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 20%;
     }
 }
+@-moz-keyframes bar-fill-seo {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 20%;
+    }
+}
+@-webkit-keyframes bar-fill-seo {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 20%;
+    }
+}
+.bar-fill-analisis {
+  width: 20%;
+  background-color: #565f6f;
+  animation: bar-fill-analisis  2s ease-out;
+  -moz-animation: bar-fill-analisis  2s ease-out;
+  -webkit-animation: bar-fill-analisis  2s ease-out;
+}
+@keyframes bar-fill-analisis {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 20%;
+    }
+}
+@-moz-keyframes bar-fill-analisis {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 20%;
+    }
+}
+.bar-fill-analytics {
+  width: 20%;
+  background-color: #565f6f;
+  animation: bar-fill-analytics  2s ease-out;
+  -moz-animation: bar-fill-analytics  2s ease-out;
+  -webkit-animation: bar-fill-analytics  2s ease-out;
+}
+@keyframes bar-fill-analytics {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 20%;
+    }
+}
+@-moz-keyframes bar-fill-analytics {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 20%;
+    }
+}
+@-webkit-keyframes bar-fill-analytics {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 20%;
+    }
+
+  }
+  .bar-fill-research{
+  width: 20%;
+  background-color: #565f6f;
+  animation: bar-fill-research  2s ease-out;
+  -moz-animation: bar-fill-research  2s ease-out;
+  -webkit-animation: bar-fill-research  2s ease-out;
+}
+@keyframes bar-fill-research {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 20%;
+    }
+}
+@-moz-keyframes bar-fill-research {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 20%;
+    }
+}
+@-webkit-keyframes bar-fill-research {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 20%;
+    }
+
+  }
+
+  @media only screen and (max-width: 408px) {
+    /* For desktop: */
+    .container-skills-tech ,  .container-skills-marketing{
+      max-width: 250px;
+    }
+}
+    
+
+
